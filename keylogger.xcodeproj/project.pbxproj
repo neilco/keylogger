@@ -30,6 +30,8 @@
 		289D5C0A1617106B008AC57E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		289D5C0D1617106B008AC57E /* keylogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "keylogger-Prefix.pch"; sourceTree = "<group>"; };
 		289D5C1916171347008AC57E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289D5C1C16171E1E008AC57E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		289D5C1D16171FA3008AC57E /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,8 @@
 		289D5C0C1617106B008AC57E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				289D5C1C16171E1E008AC57E /* README.md */,
+				289D5C1D16171FA3008AC57E /* LICENSE.md */,
 				289D5C0D1617106B008AC57E /* keylogger-Prefix.pch */,
 			);
 			name = "Supporting Files";
