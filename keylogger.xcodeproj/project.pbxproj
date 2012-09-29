@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		289D5C081617106B008AC57E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289D5C071617106B008AC57E /* Foundation.framework */; };
 		289D5C0B1617106B008AC57E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 289D5C0A1617106B008AC57E /* main.m */; };
-		289D5C0F1617106B008AC57E /* keylogger.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 289D5C0E1617106B008AC57E /* keylogger.1 */; };
+		289D5C1A16171347008AC57E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289D5C1916171347008AC57E /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +19,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				289D5C0F1617106B008AC57E /* keylogger.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -30,7 +29,7 @@
 		289D5C071617106B008AC57E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		289D5C0A1617106B008AC57E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		289D5C0D1617106B008AC57E /* keylogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "keylogger-Prefix.pch"; sourceTree = "<group>"; };
-		289D5C0E1617106B008AC57E /* keylogger.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = keylogger.1; sourceTree = "<group>"; };
+		289D5C1916171347008AC57E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289D5C1A16171347008AC57E /* CoreGraphics.framework in Frameworks */,
 				289D5C081617106B008AC57E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +65,7 @@
 		289D5C061617106B008AC57E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				289D5C1916171347008AC57E /* CoreGraphics.framework */,
 				289D5C071617106B008AC57E /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -74,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				289D5C0A1617106B008AC57E /* main.m */,
-				289D5C0E1617106B008AC57E /* keylogger.1 */,
 				289D5C0C1617106B008AC57E /* Supporting Files */,
 			);
 			path = keylogger;
@@ -236,6 +236,7 @@
 				289D5C141617106B008AC57E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
